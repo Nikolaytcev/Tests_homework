@@ -37,6 +37,6 @@ class TestHomework:
                                                                       ('New_directory', 200),
                                                                       ('Other_dir', 200)])
     def test_get_status_code(self, directory_name, expected_status_code):
-        token = 'y0_AgAAAABm8ntQAADLWwAAAADWc2-D5PtMNsrYQrK0o3apSaifEmL54gw'
+        token = ''
         result = YaDirectories(token).get_status_code(directory_name)
         assert result == expected_status_code

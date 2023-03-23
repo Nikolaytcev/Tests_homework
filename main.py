@@ -61,7 +61,7 @@ class YaDirectories:
 
 def main():
     directories = ['My_directory', 'New_directory', 'Other_dir']
-    token = 'y0_AgAAAABm8ntQAADLWwAAAADWc2-D5PtMNsrYQrK0o3apSaifEmL54gw'
+    token = ''
 
     YaDirectories(token).create_directories(directories)
 
